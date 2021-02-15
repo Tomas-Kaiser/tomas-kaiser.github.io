@@ -58,3 +58,25 @@ p {
 .about {
   max-width: 700px;
 }
+
+/* Buttons */
+.btn {
+  border-radius: 40px;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.btn--primary {
+  background: var(--color-primary);
+}
+
+.btn--accent {
+  background: var(--color-accent);
+  color: #fff;
+}
