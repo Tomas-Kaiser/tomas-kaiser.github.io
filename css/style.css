@@ -1,7 +1,7 @@
 :root {
   --color-primary: #48ba45;
   --color-secondary: #4548ba;
-  --color-accent: #ba4548;
+  --color-accent: #a51f74;
   --color-headings: #1b0760;
   /* --color-body: #918ca4;
     --color-body-darker: #5c5577;
@@ -54,6 +54,16 @@ p {
   margin-top: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+.block--dark h1,
+.block--dark h2,
+.block--dark h3 {
+  color: #fff;
+}
+
 /* About */
 .about {
   max-width: 700px;
@@ -86,6 +96,55 @@ p {
   display: grid;
 }
 
-.grid--1x2 {
-  grid-template-columns: repeat(2, 1fr);
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* block */
+.block {
+  padding: 2rem;
+}
+
+.block--dark {
+  background: black;
+}
+
+.block--skewed-left {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+/* Hero */
+.hero__container {
+  align-items: center;
+}
+
+.hero__header {
+  text-align: center;
+  margin-bottom: 4rem;
+  letter-spacing: 3px;
+}
+
+.hero__btn--gradient {
+  background: linear-gradient(45deg, var(--color-accent), #e95943);
+  color: #fff;
+}
+
+.hero__img {
+  max-width: 100%;
+}
+
+.hero__tagline {
+  letter-spacing: 2px;
+}
+
+.block--dark .hero__tagline {
+  color: gray;
+}
+
+/* Container */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
