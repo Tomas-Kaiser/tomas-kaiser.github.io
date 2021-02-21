@@ -148,3 +148,14 @@ a {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/* Lists */
+.list {
+  list-style: none;
+  line-height: 2;
+}
+
+.list--tick {
+  list-style-image: url(../images/tick.svg);
+  color: var(--color-secondary);
+}
