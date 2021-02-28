@@ -64,6 +64,10 @@ a {
   color: #fff;
 }
 
+.block__heading {
+  margin-bottom: 5rem;
+}
+
 /* About */
 .about {
   max-width: 700px;
@@ -94,6 +98,10 @@ a {
 /* Grids */
 .grid {
   display: grid;
+}
+
+.grid-col-gap {
+  column-gap: 10rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -160,6 +168,14 @@ a {
   color: var(--color-secondary);
 }
 
+@media screen and (min-width: 425px) {
+  .list--split {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+  }
+}
+
 /* Icons */
 .icon {
   width: 40px;
@@ -171,6 +187,10 @@ a {
 }
 
 /* Collapsibals */
+.collapsible {
+  cursor: pointer;
+}
+
 .collapsible__header {
   display: flex;
   justify-content: space-between;
@@ -199,4 +219,20 @@ a {
 .collapsible--expanded .collapsible__content {
   max-height: 100%;
   opacity: 1;
+}
+
+/* Technologies */
+.technologies_section .collapsible {
+  padding: 3rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .technologies_section .collapsible__chevron {
+    display: none;
+  }
+
+  .technologies_section .collapsible__content {
+    max-height: 100%;
+    opacity: 1;
+  }
 }
