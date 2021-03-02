@@ -248,3 +248,38 @@ a {
     opacity: 1;
   }
 }
+
+/* Timeline */
+.timeline {
+  border-left: 8px solid var(--color-accent);
+  margin-left: 2rem;
+  padding-left: 2rem;
+}
+
+.timeline__box {
+  margin-bottom: 2rem;
+}
+
+.timeline__box::before {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 3px solid black;
+  content: "";
+  display: block;
+  height: 15px;
+  left: -31px;
+  position: relative;
+  top: 24px;
+  width: 15px;
+}
+
+.timeline__heading {
+  font-weight: bold;
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+
+.timeline__body p {
+  margin-bottom: 0;
+  color: #524e4e;
+}
