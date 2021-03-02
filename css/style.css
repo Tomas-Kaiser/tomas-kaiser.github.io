@@ -327,3 +327,13 @@ textarea:focus {
 .form-group {
   margin-bottom: 1rem;
 }
+
+/* Footer */
+.footer {
+  color: wheat;
+}
+
+.footer__copyright {
+  text-align: center;
+  margin-bottom: 0;
+}
