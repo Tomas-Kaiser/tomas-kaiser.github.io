@@ -6,3 +6,12 @@ collapsibles.forEach((item) =>
     console.log("click");
   })
 );
+
+// Navbar logic
+const navCollapsible = document.querySelector(".nav-collapsible");
+
+navCollapsible.addEventListener("click", function () {
+  document
+    .querySelector(".nav-collapsible__content")
+    .classList.toggle("collapsible--expanded");
+});
