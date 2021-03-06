@@ -38,7 +38,13 @@ h3 {
 
 h1 {
   /* 1 x font size of the html element */
-  font-size: 7rem;
+  font-size: 6rem;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 7.5rem;
+  }
 }
 
 h2 {
@@ -62,10 +68,6 @@ a {
 .block--dark h2,
 .block--dark h3 {
   color: #fff;
-}
-
-.block__heading {
-  margin-bottom: 5rem;
 }
 
 /* About */
@@ -123,6 +125,11 @@ a {
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
+.block__heading {
+  margin-bottom: 5rem;
+  text-transform: capitalize;
+}
+
 /* Hero */
 .hero__container {
   align-items: center;
@@ -149,6 +156,12 @@ a {
 
 .block--dark .hero__tagline {
   color: gray;
+}
+
+@media screen and (min-width: 425px) {
+  .hero__container {
+    height: 90vh;
+  }
 }
 
 /* Container */
@@ -235,7 +248,7 @@ a {
 
 /* Technologies */
 .technologies_section .collapsible {
-  padding: 3rem 0;
+  padding: 0 0 3rem 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -362,6 +375,7 @@ textarea:focus {
 
 .nav__list {
   margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
   text-align: center;
 }
@@ -429,7 +443,6 @@ textarea:focus {
 
   .nav__list {
     display: flex;
-    margin-bottom: 0;
     margin-right: 1rem;
   }
 
