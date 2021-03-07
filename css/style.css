@@ -71,6 +71,11 @@ a {
 }
 
 /* About */
+#about {
+  position: relative;
+  top: -80px;
+}
+
 .about {
   max-width: 700px;
 }
@@ -152,6 +157,10 @@ a {
 }
 
 /* Hero */
+.hero {
+  padding-top: 90px;
+}
+
 .hero__container {
   align-items: center;
 }
@@ -403,6 +412,9 @@ textarea:focus {
 /* Navbar */
 .nav {
   background-color: var(--color-primary);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .nav__heading {
@@ -432,6 +444,12 @@ textarea:focus {
 .nav__list a {
   color: #fff;
   display: block;
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.nav__list a:hover {
+  border-bottom: 3px solid var(--color-secondary);
+  transition: 0.5s;
 }
 
 .nav-collapsible__content {
