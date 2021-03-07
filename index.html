@@ -11,7 +11,7 @@
   <body>
     <header class="nav">
       <div class="nav__heading">
-        <h2>SOFTWARE ENGINEER</h2>
+        <h2><a href="index.html">SW ENGINEER</a></h2>
         <svg class="icon icon--white nav-collapsible nav__toggler">
           <use xlink:href="./images/sprite.svg#menu"></use>
         </svg>
@@ -19,10 +19,11 @@
       <nav>
         <ul class="list nav__list nav-collapsible__content">
           <li class="list__item"><a href="#about">About Me</a></li>
-          <li class="list__item"><a href="#">Tech</a></li>
-          <li class="list__item"><a href="#">Projects</a></li>
-          <li class="list__item"><a href="#">Exp</a></li>
-          <li class="list__item"><a href="#">Contact Me</a></li>
+          <li class="list__item"><a href="#tech">Tech</a></li>
+          <li class="list__item"><a href="#projects">Projects</a></li>
+          <li class="list__item"><a href="#exp">Exp</a></li>
+          <li class="list__item"><a href="#testimonials">Testimonials</a></li>
+          <li class="list__item"><a href="#contact">Contact Me</a></li>
         </ul>
       </nav>
     </header>
@@ -36,7 +37,7 @@
         <img class="hero__img" src="./images/MacBook.jpg" alt="" />
       </div>
     </section>
-    <div id="about"></div>
+    <div id="about" class="position-relative"></div>
     <section class="block">
       <div class="about container">
         <h2 class="block__heading">A Few Words About Me</h2>
@@ -47,6 +48,7 @@
         </p>
       </div>
     </section>
+    <div id="tech" class="position-relative"></div>
     <section class="block technologies_section">
       <div class="container">
         <h2 class="block__heading">Technologies I work with</h2>
@@ -159,6 +161,7 @@
         </div>
       </div>
     </section>
+    <div id="projects" class="position-relative"></div>
     <section class="block block-side-projects container">
       <h2 class="block__heading">Side Projects</h2>
       <div class="grid grid--1x2 grid--1x3">
@@ -320,6 +323,7 @@
         </div>
       </div>
     </section>
+    <div id="exp" class="position-relative"></div>
     <section class="block block-timeline container">
       <h2 class="block__heading">Work Experience & Education</h2>
       <div class="timeline">
@@ -352,6 +356,7 @@
         </div>
       </div>
     </section>
+    <div id="testimonials" class="position-relative"></div>
     <section class="block block-testimonial container">
       <h2 class="block__heading">What Colleagues Say About Me</h2>
       <div class="card testimonial">
@@ -378,6 +383,7 @@
         </blockquote>
       </div>
     </section>
+    <div id="contact" class="position-relative"></div>
     <section class="section block block-form container">
       <h2 class="block__heading">Get In Touch</h2>
       <form
@@ -420,7 +426,7 @@
             </svg>
           </a>
         </div>
-        <p class="footer__copyright">Copyright 2020 Tomas Kaiser</p>
+        <p class="footer__copyright">Copyright 2021 Tomas Kaiser</p>
       </div>
     </footer>
     <script src="./js/main.js"></script>
