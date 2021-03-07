@@ -525,7 +525,7 @@ textarea:focus {
 
 .side-project {
   margin: 0 auto;
-  width: 310px;
+  width: 280px;
 }
 
 .side-project .card__header {
@@ -551,6 +551,7 @@ textarea:focus {
 .side-project .list {
   margin-bottom: 0;
   font-size: 1.8rem;
+  padding-left: 16px;
 }
 
 .side-project .card__footer {
@@ -558,6 +559,16 @@ textarea:focus {
   padding: 0 30px 25px 30px;
   gap: 30px;
   grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (min-width: 375px) {
+  .side-project {
+    width: 320px;
+  }
+
+  .side-project .list {
+    padding-left: 40px;
+  }
 }
 
 /* Social Icons */
