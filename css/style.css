@@ -392,7 +392,7 @@ textarea:focus {
 
 /* Footer */
 .footer {
-  color: wheat;
+  color: #fff;
 }
 
 .footer__copyright {
@@ -540,4 +540,26 @@ textarea:focus {
   padding: 0 30px 25px 30px;
   gap: 30px;
   grid-template-columns: repeat(2, 1fr);
+}
+
+/* Social Icons */
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  padding: 12px;
+}
+
+.social-icons svg {
+  width: 40px;
+  height: 40px;
+  fill: #fff;
+}
+
+.social-icons svg:hover {
+  fill: var(--color-accent);
+  transition: 0.25s;
 }
