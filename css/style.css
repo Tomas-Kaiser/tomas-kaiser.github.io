@@ -453,6 +453,7 @@ textarea:focus {
   color: #fff;
   display: block;
   border-bottom: 3px solid black;
+  transition: 0.5s;
 }
 
 .nav-scrolled .nav__list a {
