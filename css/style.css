@@ -411,10 +411,15 @@ textarea:focus {
 
 /* Navbar */
 .nav {
-  background-color: var(--color-primary);
+  background-color: black;
   position: fixed;
   width: 100%;
   z-index: 1;
+  transition: 0.5s;
+}
+
+.nav-scrolled {
+  background-color: var(--color-primary);
 }
 
 .nav__heading {
@@ -447,6 +452,10 @@ textarea:focus {
 .nav__list a {
   color: #fff;
   display: block;
+  border-bottom: 3px solid black;
+}
+
+.nav-scrolled .nav__list a {
   border-bottom: 3px solid var(--color-primary);
 }
 
