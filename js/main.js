@@ -34,3 +34,115 @@ const heroObserver = new IntersectionObserver(function (entries, heroObserver) {
 }, heroOptions);
 
 heroObserver.observe(hero);
+
+// About Intersection
+const about = document.querySelector(".about");
+const listAbout = document.querySelector(".list__about");
+const aboutOption = {};
+const aboutObserver = new IntersectionObserver(function (
+  entries,
+  aboutObserver
+) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      listAbout.classList.add("current");
+    } else {
+      listAbout.classList.remove("current");
+    }
+  });
+},
+aboutOption);
+
+aboutObserver.observe(about);
+
+// Tech Intersection
+const tech = document.querySelector(".technologies_section");
+const listtech = document.querySelector(".list__tech");
+const techOption = {};
+const techObserver = new IntersectionObserver(function (entries, techObserver) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      listtech.classList.add("current");
+    } else {
+      listtech.classList.remove("current");
+    }
+  });
+}, techOption);
+
+techObserver.observe(tech);
+
+// Projects Intersection
+const projects = document.querySelector(".block-side-projects");
+const listprojects = document.querySelector(".list__projects");
+const projectsOption = {};
+const projectsObserver = new IntersectionObserver(function (
+  entries,
+  projectsObserver
+) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      listprojects.classList.add("current");
+    } else {
+      listprojects.classList.remove("current");
+    }
+  });
+},
+projectsOption);
+
+projectsObserver.observe(projects);
+
+// Exp Intersection
+const exp = document.querySelector(".block-timeline");
+const listExp = document.querySelector(".list__exp");
+const expOption = {};
+const expObserver = new IntersectionObserver(function (entries, expObserver) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      listExp.classList.add("current");
+    } else {
+      listExp.classList.remove("current");
+    }
+  });
+}, expOption);
+
+expObserver.observe(exp);
+
+// Testimonal Intersection
+const testimonal = document.querySelector(".block-testimonial");
+const listTestimonal = document.querySelector(".list__testimonials");
+const testimonalOption = {};
+const testimonalObserver = new IntersectionObserver(function (
+  entries,
+  testimonalObserver
+) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      listTestimonal.classList.add("current");
+    } else {
+      listTestimonal.classList.remove("current");
+    }
+  });
+},
+testimonalOption);
+
+testimonalObserver.observe(testimonal);
+
+// Contact Intersection
+const contact = document.querySelector(".contact");
+const listContact = document.querySelector(".list__contact");
+const contactOption = {};
+const contactObserver = new IntersectionObserver(function (
+  entries,
+  contactObserver
+) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      listContact.classList.add("current");
+    } else {
+      listContact.classList.remove("current");
+    }
+  });
+},
+contactOption);
+
+contactObserver.observe(contact);

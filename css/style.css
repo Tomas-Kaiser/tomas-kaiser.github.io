@@ -477,6 +477,10 @@ textarea:focus {
   opacity: 1;
 }
 
+.current a {
+  color: #d3d2d2;
+}
+
 @media screen and (min-width: 375px) {
   .nav__heading {
     padding: 2rem;
