@@ -426,7 +426,7 @@ textarea:focus {
 
 /* Navbar */
 .nav {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -467,7 +467,7 @@ textarea:focus {
 .nav__list a {
   color: #fff;
   display: block;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.8);
   transition: 0.5s;
 }
 
