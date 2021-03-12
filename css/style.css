@@ -358,6 +358,12 @@ a {
   margin-top: 1rem;
 }
 
+/* Testimonial */
+.block-testimonial .card {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 /* Contact Us Form */
 .form-contact {
   display: flex;
