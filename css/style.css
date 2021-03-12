@@ -46,6 +46,10 @@ h1 {
   top: -80px;
 }
 
+section {
+  padding: 100px 0;
+}
+
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 7.5rem;
@@ -140,7 +144,7 @@ a {
 
 /* block */
 .block {
-  padding: 2rem;
+  padding: 6rem 4rem;
 }
 
 .block--dark {
