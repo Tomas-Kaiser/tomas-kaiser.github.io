@@ -176,6 +176,11 @@ a {
   color: #fff;
 }
 
+.hero__btn--gradient:hover {
+  background: linear-gradient(180deg, var(--color-accent), #e95943);
+  color: #fff;
+}
+
 .hero__img {
   max-width: 100%;
 }
