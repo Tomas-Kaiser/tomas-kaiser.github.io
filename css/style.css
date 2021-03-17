@@ -624,3 +624,24 @@ textarea:focus {
   fill: var(--color-accent);
   transition: 0.25s;
 }
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.slide-left {
+  transform: translateX(250px);
+  opacity: 0;
+  transition: all 400ms ease-in;
+}
+
+.slide-left.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
