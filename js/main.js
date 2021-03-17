@@ -38,7 +38,9 @@ heroObserver.observe(hero);
 // About Intersection
 const about = document.querySelector(".about");
 const listAbout = document.querySelector(".list__about");
-const aboutOption = {};
+const aboutOption = {
+  rootMargin: "-25% 0px -40% 0px",
+};
 const aboutObserver = new IntersectionObserver(function (
   entries,
   aboutObserver
@@ -58,7 +60,9 @@ aboutObserver.observe(about);
 // Tech Intersection
 const tech = document.querySelector(".technologies_section");
 const listtech = document.querySelector(".list__tech");
-const techOption = {};
+const techOption = {
+  rootMargin: "-25% 0px -40% 0px",
+};
 const techObserver = new IntersectionObserver(function (entries, techObserver) {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -74,7 +78,9 @@ techObserver.observe(tech);
 // Projects Intersection
 const projects = document.querySelector(".block-side-projects");
 const listprojects = document.querySelector(".list__projects");
-const projectsOption = {};
+const projectsOption = {
+  rootMargin: "-25% 0px -40% 0px",
+};
 const projectsObserver = new IntersectionObserver(function (
   entries,
   projectsObserver
@@ -94,7 +100,9 @@ projectsObserver.observe(projects);
 // Exp Intersection
 const exp = document.querySelector(".block-timeline");
 const listExp = document.querySelector(".list__exp");
-const expOption = {};
+const expOption = {
+  rootMargin: "-25% 0px -40% 0px",
+};
 const expObserver = new IntersectionObserver(function (entries, expObserver) {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -110,7 +118,9 @@ expObserver.observe(exp);
 // Testimonal Intersection
 const testimonal = document.querySelector(".block-testimonial");
 const listTestimonal = document.querySelector(".list__testimonials");
-const testimonalOption = {};
+const testimonalOption = {
+  rootMargin: "-25% 0px -40% 0px",
+};
 const testimonalObserver = new IntersectionObserver(function (
   entries,
   testimonalObserver
@@ -130,7 +140,9 @@ testimonalObserver.observe(testimonal);
 // Contact Intersection
 const contact = document.querySelector(".contact");
 const listContact = document.querySelector(".list__contact");
-const contactOption = {};
+const contactOption = {
+  rootMargin: "-25% 0px -40% 0px",
+};
 const contactObserver = new IntersectionObserver(function (
   entries,
   contactObserver
