@@ -586,11 +586,22 @@ textarea:focus {
   padding-left: 16px;
 }
 
+.side-project .card {
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+}
+
 .side-project .card__footer {
   text-align: center;
   padding: 0 30px 25px 30px;
   gap: 30px;
   grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.side-project .card__footer a {
+  align-self: flex-end;
 }
 
 @media screen and (min-width: 375px) {
