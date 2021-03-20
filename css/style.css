@@ -476,12 +476,13 @@ textarea:focus {
 .nav__list a {
   color: #fff;
   display: block;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 3px solid transparent;
   transition: 0.5s;
 }
 
 .nav-scrolled .nav__list a {
-  border-bottom: 3px solid var(--color-primary);
+  border-bottom: 3px solid transparent;
+  transition: 0.5s;
 }
 
 .nav__list a:hover {
