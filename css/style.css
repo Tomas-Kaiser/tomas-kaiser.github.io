@@ -458,6 +458,14 @@ textarea:focus {
   cursor: pointer;
 }
 
+.nav__toggler:hover {
+  box-shadow: 0 0 12px #fff;
+}
+
+.nav-toggler--expanded {
+  box-shadow: 0 0 12px #fff;
+}
+
 .nav__list {
   margin-top: 0;
   margin-bottom: 0;

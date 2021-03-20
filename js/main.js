@@ -13,6 +13,10 @@ navCollapsible.addEventListener("click", function () {
   document
     .querySelector(".nav-collapsible__content")
     .classList.toggle("collapsible--expanded");
+
+  document
+    .querySelector(".nav__toggler")
+    .classList.toggle("nav-toggler--expanded");
 });
 
 // Navbar intersection
