@@ -1,6 +1,6 @@
 :root {
   --color-primary: #48ba45;
-  --color-secondary: #4548ba;
+  --color-secondary: #524e4e;
   --color-accent: #a51f74;
   --color-headings: #1b0760;
   /* --color-body: #918ca4;
@@ -338,7 +338,7 @@ a {
 
 .timeline__body p {
   margin-bottom: 0;
-  color: #524e4e;
+  color: var(--color-secondary);
 }
 
 /* Medias */
@@ -435,7 +435,7 @@ textarea:focus {
 }
 
 .nav-scrolled {
-  background-color: var(--color-primary);
+  background-color: var(--color-accent);
 }
 
 .nav__heading {
