@@ -3,7 +3,7 @@
     <style>
       .cls-1 {
         fill: none;
-        stroke: #2dd5a7;
+        stroke: #852e7c;;
         stroke-width: 2px;
         fill-rule: evenodd;
       }
