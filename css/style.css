@@ -304,6 +304,10 @@ a {
     max-height: 100%;
     opacity: 1;
   }
+
+  .technologies_section .collapsible {
+    cursor: initial;
+  }
 }
 
 /* Timeline */
