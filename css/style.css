@@ -145,7 +145,7 @@ a {
 
 /* block */
 .block {
-  padding: 6rem 4rem;
+  padding: 6rem 1rem;
 }
 
 .block--dark {
@@ -201,6 +201,10 @@ a {
 @media screen and (min-width: 425px) {
   .hero__container {
     height: 90vh;
+  }
+
+  .block {
+    padding: 6rem 4rem;
   }
 }
 
