@@ -403,6 +403,7 @@ textarea:focus {
 
 textarea {
   resize: none;
+  width: 100%;
 }
 
 .form-group {
