@@ -259,6 +259,10 @@ a {
   padding: 10px;
 }
 
+.card__footer a {
+  color: #551b8b;
+}
+
 /* Collapsibals */
 .collapsible {
   cursor: pointer;
