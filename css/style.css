@@ -663,14 +663,3 @@ textarea:focus {
 .fade-in.appear {
   opacity: 1;
 }
-
-.slide-left {
-  transform: translateX(250px);
-  opacity: 0;
-  transition: all 400ms ease-in;
-}
-
-.slide-left.appear {
-  transform: translateX(0);
-  opacity: 1;
-}
