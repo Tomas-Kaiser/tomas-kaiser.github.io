@@ -606,7 +606,7 @@ textarea:focus {
 .side-project hr {
   width: 30%;
   margin-left: 0;
-  border: 2px solid #2dd5a7;
+  border: 2px solid var(--color-accent);
 }
 
 .side-project .list {
