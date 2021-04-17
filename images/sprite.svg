@@ -38,7 +38,7 @@
     <path d="M46 44h2v2h-2z"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 2" id="line">
-    <path fill="#63c3ef" d="M0 0h50v2H0z"></path>
+    <path d="M0 0h50v2H0z"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11" id="tick">
     <path d="M2 4l4 4 8-8" fill="none" stroke="#2dd5a7" stroke-width="2"></path>

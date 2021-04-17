@@ -254,6 +254,10 @@ a {
   fill: #fff;
 }
 
+.icon--accent {
+  fill: var(--color-accent);
+}
+
 /* Cards */
 .card {
   border-radius: 7px;
