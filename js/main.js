@@ -9,7 +9,7 @@ collapsibles.forEach((item) =>
 // Navbar logic
 const navCollapsible = document.querySelector(".nav-collapsible");
 
-navCollapsible.addEventListener("click", function () {
+const collapsibleMenu = function () {
   document
     .querySelector(".nav-collapsible__content")
     .classList.toggle("collapsible--expanded");
@@ -17,7 +17,15 @@ navCollapsible.addEventListener("click", function () {
   document
     .querySelector(".nav__toggler")
     .classList.toggle("nav-toggler--expanded");
-});
+};
+
+// toggle collapsible hamburger menu
+navCollapsible.addEventListener("click", collapsibleMenu);
+
+// collabse navbar once clicking on link nav menu
+const navList = document.querySelectorAll(".nav__list");
+
+navList.forEach((item) => item.addEventListener("click", collapsibleMenu));
 
 // Navbar intersection
 const nav = document.querySelector(".nav");
