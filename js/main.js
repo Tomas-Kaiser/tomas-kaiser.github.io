@@ -24,7 +24,6 @@ navCollapsible.addEventListener("click", collapsibleMenu);
 
 // collabse navbar once clicking on link nav menu
 const navList = document.querySelectorAll(".nav__list");
-
 navList.forEach((item) => item.addEventListener("click", collapsibleMenu));
 
 // Navbar intersection
