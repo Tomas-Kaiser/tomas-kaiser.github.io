@@ -6,5 +6,4 @@ This is my web portfolio created with HTML5, CSS3 & JavaScript.
 
 [Live-stage Link](https://tomas-software-developer-stage.netlify.app/)
 
-TODO: Automatcally close the menu when click on menu item on mobile screens!
 TODO: Update Master branch
