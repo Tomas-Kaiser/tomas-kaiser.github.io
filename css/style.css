@@ -133,6 +133,10 @@ a {
   background: var(--color-accent);
 }
 
+.btn--fixed-width {
+  width: 100px;
+}
+
 /* Grids */
 .grid {
   display: grid;
@@ -629,12 +633,10 @@ textarea:focus {
 }
 
 .side-project .card__footer {
-  text-align: center;
-  padding: 0 30px 25px 30px;
+  display: flex;
+  justify-content: space-between;
   margin-top: auto;
-  gap: 30px;
-  grid-template-columns: repeat(2, 1fr);
-  height: 100%;
+  padding: 0 30px 25px 30px;
 }
 
 .side-project .card__footer a {
