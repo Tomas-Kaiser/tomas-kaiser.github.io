@@ -410,6 +410,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
+  font-size: 0.8em;
   font-family: Arial;
   border: 1px solid #ccc;
   border-radius: 5px;
