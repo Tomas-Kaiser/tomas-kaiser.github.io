@@ -377,6 +377,7 @@ a {
 .timeline__body p {
   margin-bottom: 0;
   color: var(--color-secondary);
+  font-size: 0.8em;
 }
 
 /* Medias */
