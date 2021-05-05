@@ -37,6 +37,12 @@ h3 {
   line-height: 1.1;
 }
 
+h4 {
+  color: var(--color-headings);
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
 h1 {
   /* 1 x font size of the html element */
   font-size: 6rem;
