@@ -410,6 +410,10 @@ a {
   margin: 0 auto;
 }
 
+.quote__text {
+  font-size: 0.9em;
+}
+
 /* Contact Us Form */
 .form-contact {
   display: flex;
