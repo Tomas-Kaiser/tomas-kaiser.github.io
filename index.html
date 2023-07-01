@@ -1,541 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
-    />
-    <title>Tomas Software Engineer</title>
 
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header class="nav">
-      <div class="nav__heading">
-        <h2><a href="#hero">SW ENGINEER</a></h2>
-        <svg class="icon icon--white nav-collapsible nav__toggler">
-          <use xlink:href="./images/sprite.svg#menu"></use>
-        </svg>
-      </div>
-      <nav>
-        <ul class="list nav__list nav-collapsible__content">
-          <li class="list__item list__about"><a href="#about">About Me</a></li>
-          <li class="list__item list__tech"><a href="#tech">Tech</a></li>
-          <li class="list__item list__projects">
-            <a href="#projects">Projects</a>
-          </li>
-          <li class="list__item list__exp"><a href="#exp">Exp</a></li>
-          <li class="list__item list__testimonials">
-            <a href="#testimonials">Testimonials</a>
-          </li>
-          <li class="list__item list__contact">
-            <a href="#contact">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section id="hero" class="block block--dark block--skewed-left hero">
-      <div class="container grid grid--1x2 hero__container">
-        <header class="hero__header">
-          <h1 class="hero__heading">Portfolio</h1>
-          <p class="hero__tagline">Explore my work</p>
-          <a href="#projects" class="btn hero__btn--gradient">Check Out</a>
-        </header>
-        <img class="hero__img" src="./images/MacBook.jpg" alt="MackBook" />
-      </div>
-    </section>
-    <div id="about" class="position-relative"></div>
-    <section class="block">
-      <div class="about container">
-        <h2 class="block__heading">A Few Words About Me</h2>
-        <p class="about__body">
-          My name is Tomas and I am a full-stack software engineer with 1+ year
-          experience. In 2020, I graduated with distinction in Computer Science
-          from National College of Ireland. My main areas of expertise are Java
-          (Spring Boot), MySQL & ReactJS. I also have considerable experience
-          with Python (Django, Flask & Airflow), Kubernetes, Docker & cloud
-          provider Azure.
-        </p>
-      </div>
-    </section>
-    <div id="tech" class="position-relative"></div>
-    <section class="block technologies_section">
-      <div class="container">
-        <h2 class="block__heading">Technologies I work with</h2>
-        <div class="grid grid--1x2 grid-col-gap">
-          <div class="collapsible noSelect fade-in">
-            <header class="collapsible__header">
-              <h3 class="collapsible__heading">Front End</h3>
-              <svg class="icon icon--white collapsible__chevron">
-                <use xlink:href="./images/sprite.svg#chevron"></use>
-              </svg>
-            </header>
-            <div class="collapsible__content">
-              <ul class="list list--tick list--split">
-                <div>
-                  <li class="list__item">HTML5</li>
-                  <li class="list__item">CSS3 (Sass)</li>
-                  <li class="list__item">JavaScript</li>
-                  <li class="list__item">React.JS</li>
-                  <li class="list__item">jQuery</li>
-                  <li class="list__item">Jinja2</li>
-                </div>
-                <div>
-                  <li class="list__item">Bootstrap</li>
-                  <li class="list__item">Materialize</li>
-                  <li class="list__item">D3.js</li>
-                  <li class="list__item">DC.js</li>
-                  <li class="list__item">Crossfilter.js</li>
-                  <li class="list__item">AdobeXD</li>
-                </div>
-              </ul>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <title>Tomas Software Engineer</title>
+
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav__heading">
+      <h2><a href="#hero">SW ENGINEER</a></h2>
+      <svg class="icon icon--white nav-collapsible nav__toggler">
+        <use xlink:href="./images/sprite.svg#menu"></use>
+      </svg>
+    </div>
+    <nav>
+      <ul class="list nav__list nav-collapsible__content">
+        <li class="list__item list__about"><a href="#about">About Me</a></li>
+        <li class="list__item list__tech"><a href="#tech">Tech</a></li>
+        <li class="list__item list__projects">
+          <a href="#projects">Projects</a>
+        </li>
+        <li class="list__item list__exp"><a href="#exp">Exp</a></li>
+        <li class="list__item list__testimonials">
+          <a href="#testimonials">Testimonials</a>
+        </li>
+        <li class="list__item list__contact">
+          <a href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="hero" class="block block--dark block--skewed-left hero">
+    <div class="container grid grid--1x2 hero__container">
+      <header class="hero__header">
+        <h1 class="hero__heading">Portfolio</h1>
+        <p class="hero__tagline">Explore my work</p>
+        <a href="#projects" class="btn hero__btn--gradient">Check Out</a>
+      </header>
+      <img class="hero__img" src="./images/MacBook.jpg" alt="MackBook" />
+    </div>
+  </section>
+  <div id="about" class="position-relative"></div>
+  <section class="block">
+    <div class="about container">
+      <h2 class="block__heading">A Few Words About Me</h2>
+      <p class="about__body">
+        My name is Tomas and I am a full-stack software engineer with 1+ year
+        experience. In 2020, I graduated with distinction in Computer Science
+        from National College of Ireland. My main areas of expertise are Java
+        (Spring Boot), MySQL & ReactJS. I also have considerable experience
+        with Python (Django, Flask & Airflow), Kubernetes, Docker & cloud
+        provider Azure.
+      </p>
+    </div>
+  </section>
+  <div id="tech" class="position-relative"></div>
+  <section class="block technologies_section">
+    <div class="container">
+      <h2 class="block__heading">Technologies I work with</h2>
+      <div class="grid grid--1x2 grid-col-gap">
+        <div class="collapsible noSelect fade-in">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading">Front End</h3>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="./images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list list--tick list--split">
+              <div>
+                <li class="list__item">HTML5</li>
+                <li class="list__item">CSS3 (Sass)</li>
+                <li class="list__item">JavaScript</li>
+                <li class="list__item">React.JS</li>
+                <li class="list__item">jQuery</li>
+                <li class="list__item">Jinja2</li>
+              </div>
+              <div>
+                <li class="list__item">Bootstrap</li>
+                <li class="list__item">Materialize</li>
+                <li class="list__item">D3.js</li>
+                <li class="list__item">DC.js</li>
+                <li class="list__item">Crossfilter.js</li>
+                <li class="list__item">AdobeXD</li>
+              </div>
+            </ul>
           </div>
-          <div class="collapsible noSelect fade-in">
-            <header class="collapsible__header">
-              <h3 class="collapsible__heading">Back End</h3>
-              <svg class="icon icon--white collapsible__chevron">
-                <use xlink:href="./images/sprite.svg#chevron"></use>
-              </svg>
-            </header>
-            <div class="collapsible__content">
-              <ul class="list list--tick list--split">
-                <div>
-                  <li class="list__item">Java</li>
-                  <li class="list__item">Spring (Boot)</li>
-                  <li class="list__item">Maven</li>
-                  <li class="list__item">API</li>
-                  <li class="list__item">Shell/Bash</li>
-                </div>
-                <div>
-                  <li class="list__item">Python</li>
-                  <li class="list__item">Django</li>
-                  <li class="list__item">Flask</li>
-                  <li class="list__item">Airflow</li>
-                  <li class="list__item">Swagger</li>
-                </div>
-              </ul>
-            </div>
+        </div>
+        <div class="collapsible noSelect fade-in">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading">Back End</h3>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="./images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list list--tick list--split">
+              <div>
+                <li class="list__item">Java</li>
+                <li class="list__item">Spring (Boot)</li>
+                <li class="list__item">Maven</li>
+                <li class="list__item">API</li>
+                <li class="list__item">Shell/Bash</li>
+              </div>
+              <div>
+                <li class="list__item">Python</li>
+                <li class="list__item">Django</li>
+                <li class="list__item">Flask</li>
+                <li class="list__item">Airflow</li>
+                <li class="list__item">Swagger</li>
+              </div>
+            </ul>
           </div>
-          <div class="collapsible noSelect fade-in">
-            <header class="collapsible__header">
-              <h3 class="collapsible__heading">Databases</h3>
-              <svg class="icon icon--white collapsible__chevron">
-                <use xlink:href="./images/sprite.svg#chevron"></use>
-              </svg>
-            </header>
-            <div class="collapsible__content">
-              <ul class="list list--tick">
-                <li class="list__item">MySQL</li>
-                <li class="list__item">SQLite</li>
-                <li class="list__item">NoSQL (MongoDB)</li>
-              </ul>
-            </div>
+        </div>
+        <div class="collapsible noSelect fade-in">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading">Databases</h3>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="./images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list list--tick">
+              <li class="list__item">MySQL</li>
+              <li class="list__item">SQLite</li>
+              <li class="list__item">NoSQL (MongoDB)</li>
+            </ul>
           </div>
-          <div class="collapsible noSelect fade-in">
-            <header class="collapsible__header">
-              <h3 class="collapsible__heading">DevOps</h3>
-              <svg class="icon icon--white collapsible__chevron">
-                <use xlink:href="./images/sprite.svg#chevron"></use>
-              </svg>
-            </header>
-            <div class="collapsible__content">
-              <ul class="list list--tick list--split">
-                <div>
-                  <li class="list__item">GIT</li>
-                  <li class="list__item">GitHub</li>
-                  <li class="list__item">Jenkins</li>
-                  <li class="list__item">Travis CI</li>
-                </div>
-                <div>
-                  <li class="list__item">Docker</li>
-                  <li class="list__item">Kubernetes</li>
-                  <li class="list__item">Terraform</li>
-                  <li class="list__item">Azure</li>
-                </div>
-              </ul>
-            </div>
+        </div>
+        <div class="collapsible noSelect fade-in">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading">DevOps</h3>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="./images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list list--tick list--split">
+              <div>
+                <li class="list__item">GIT</li>
+                <li class="list__item">GitHub</li>
+                <li class="list__item">Jenkins</li>
+                <li class="list__item">Travis CI</li>
+              </div>
+              <div>
+                <li class="list__item">Docker</li>
+                <li class="list__item">Kubernetes</li>
+                <li class="list__item">Terraform</li>
+                <li class="list__item">Azure</li>
+              </div>
+            </ul>
           </div>
-          <div class="collapsible noSelect fade-in">
-            <header class="collapsible__header">
-              <h3 class="collapsible__heading">Other</h3>
-              <svg class="icon icon--white collapsible__chevron">
-                <use xlink:href="./images/sprite.svg#chevron"></use>
-              </svg>
-            </header>
-            <div class="collapsible__content">
-              <ul class="list list--tick">
-                <li class="list__item">CLI</li>
-                <li class="list__item">Linux</li>
-              </ul>
-            </div>
+        </div>
+        <div class="collapsible noSelect fade-in">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading">Other</h3>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="./images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list list--tick">
+              <li class="list__item">CLI</li>
+              <li class="list__item">Linux</li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
-    <div id="projects" class="position-relative"></div>
-    <section class="block block-side-projects">
-      <div class="container">
-        <h2 class="block__heading">Side Projects</h2>
-        <div class="grid grid--1x2 grid--1x3">
-          <div class="side-project fade-in">
-            <div class="card">
-              <header class="card__header">
-                <picture>
-                  <source
-                    type="image/webp"
-                    srcset="
+    </div>
+  </section>
+  <div id="projects" class="position-relative"></div>
+  <section class="block block-side-projects">
+    <div class="container">
+      <h2 class="block__heading">Side Projects</h2>
+      <div class="grid grid--1x2 grid--1x3">
+        <div class="side-project fade-in">
+          <div class="card">
+            <header class="card__header">
+              <picture>
+                <source type="image/webp" srcset="
                       ./images/e-commerce-scooters.webp    1x,
                       ./images/e-commerce-scooters@2x.webp 2x
-                    "
-                  />
-                  <source
-                    type="image/png"
-                    srcset="
+                    " />
+                <source type="image/png" srcset="
                       ./images/e-commerce-scooters.png    1x,
                       ./images/e-commerce-scooters@2x.png 2x
-                    "
-                  />
-                  <img src="./images/e-commerce-scooters.png" alt="" />
-                </picture>
-              </header>
-              <div class="card__body">
-                <h3>eCommerce</h3>
-                <hr />
-                <ul class="list list--tick">
-                  <li class="list__item">HTML5 & CSS3</li>
-                  <li class="list__item">Python - Django</li>
-                  <li class="list__item">SQLite, JavaScript</li>
-                  <li class="list__item">Stripe, AWS S3</li>
-                  <li class="list__item">Bootstrap</li>
-                </ul>
-              </div>
-              <footer class="card__footer grid grid--1x2">
-                <a
-                  href="https://github.com/Tomas-Kaiser/Code-Institute-Milestone-4-Full-Stack-App-Ecommerce"
-                  class="btn btn--outline btn--fixed-width"
-                  target="_blank"
-                  >Code</a
-                >
-                <a
-                  href="https://django-ecommerce-milestone.herokuapp.com/"
-                  class="btn btn--outline btn--fixed-width"
-                  target="_blank"
-                  >Live</a
-                >
-              </footer>
+                    " />
+                <img src="./images/e-commerce-scooters.png" alt="" />
+              </picture>
+            </header>
+            <div class="card__body">
+              <h3>eCommerce</h3>
+              <hr />
+              <ul class="list list--tick">
+                <li class="list__item">HTML5 & CSS3</li>
+                <li class="list__item">Python - Django</li>
+                <li class="list__item">SQLite, JavaScript</li>
+                <li class="list__item">Stripe, AWS S3</li>
+                <li class="list__item">Bootstrap</li>
+              </ul>
             </div>
+            <footer class="card__footer grid grid--1x2">
+              <a href="https://github.com/Tomas-Kaiser/Code-Institute-Milestone-4-Full-Stack-App-Ecommerce"
+                class="btn btn--outline btn--fixed-width" target="_blank">Code</a>
+              <a href="https://django-ecommerce-milestone.herokuapp.com/" class="btn btn--outline btn--fixed-width"
+                target="_blank">Live</a>
+            </footer>
           </div>
-          <div class="side-project fade-in">
-            <div class="card">
-              <header class="card__header">
-                <picture>
-                  <source
-                    type="image/webp"
-                    srcset="
+        </div>
+        <div class="side-project fade-in">
+          <div class="card">
+            <header class="card__header">
+              <picture>
+                <source type="image/webp" srcset="
                       ./images/cookbook.webp    1x,
                       ./images/cookbook@2x.webp 2x
-                    "
-                  />
-                  <source
-                    type="image/png"
-                    srcset="
+                    " />
+                <source type="image/png" srcset="
                       ./images/cookbook.png    1x,
                       ./images/cookbook@2x.png 2x
-                    "
-                  />
-                  <img
-                    src="./images/cookbook.png"
-                    alt="Cook book landing page"
-                  />
-                </picture>
-              </header>
-              <div class="card__body">
-                <h3>CookBook</h3>
-                <hr />
-                <ul class="list list--tick">
-                  <li class="list__item">HTML5 & CSS3</li>
-                  <li class="list__item">Python - Flask</li>
-                  <li class="list__item">JavaScript</li>
-                  <li class="list__item">NoSQL - MongoDB</li>
-                  <li class="list__item">Materialize</li>
-                </ul>
-              </div>
-              <footer class="card__footer grid grid--1x2">
-                <a
-                  href="https://github.com/Tomas-Kaiser/Code-Institute-Milestone-3-Data-Centric-Dev-Python-Flask"
-                  class="btn btn--outline btn--fixed-width"
-                  target="_blank"
-                  >Code</a
-                >
-                <a
-                  href="https://cookbook-flask-mongo.herokuapp.com/"
-                  class="btn btn--outline btn--fixed-width"
-                  target="_blank"
-                  >Live</a
-                >
-              </footer>
+                    " />
+                <img src="./images/cookbook.png" alt="Cook book landing page" />
+              </picture>
+            </header>
+            <div class="card__body">
+              <h3>CookBook</h3>
+              <hr />
+              <ul class="list list--tick">
+                <li class="list__item">HTML5 & CSS3</li>
+                <li class="list__item">Python - Flask</li>
+                <li class="list__item">JavaScript</li>
+                <li class="list__item">NoSQL - MongoDB</li>
+                <li class="list__item">Materialize</li>
+              </ul>
             </div>
+            <footer class="card__footer grid grid--1x2">
+              <a href="https://github.com/Tomas-Kaiser/Code-Institute-Milestone-3-Data-Centric-Dev-Python-Flask"
+                class="btn btn--outline btn--fixed-width" target="_blank">Code</a>
+              <a href="https://cookbook-flask-mongo.herokuapp.com/" class="btn btn--outline btn--fixed-width"
+                target="_blank">Live</a>
+            </footer>
           </div>
-          <div class="side-project fade-in">
-            <div class="card">
-              <header class="card__header">
-                <picture>
-                  <source
-                    type="image/webp"
-                    srcset="
+        </div>
+        <div class="side-project fade-in">
+          <div class="card">
+            <header class="card__header">
+              <picture>
+                <source type="image/webp" srcset="
                       ./images/visiting-capitals.webp    1x,
                       ./images/visiting-capitals@2x.webp 2x
-                    "
-                  />
-                  <source
-                    type="image/png"
-                    srcset="
+                    " />
+                <source type="image/png" srcset="
                       ./images/visiting-capitals.png    1x,
                       ./images/visiting-capitals@2x.png 2x
-                    "
-                  />
-                  <img src="./images/visiting-capitals.png" alt="" />
-                </picture>
-              </header>
-              <div class="card__body">
-                <h3>Visiting Capitals Cities in Europe</h3>
-                <hr />
-                <ul class="list list--tick">
-                  <li class="list__item">HTML5 & CSS3 (Sass)</li>
-                  <li class="list__item">JavaScript - jQuery</li>
-                  <li class="list__item">Ajax</li>
-                  <li class="list__item">Rest API (Foursquer API)</li>
-                </ul>
-              </div>
-              <footer class="card__footer grid grid--1x2">
-                <a
-                  href="https://github.com/Tomas-Kaiser/Code-Institute-Milestone-2-Interactive-Frontend-Development"
-                  class="btn btn--outline btn--fixed-width"
-                  target="_blank"
-                  >Code</a
-                >
-                <a
-                  href="https://tomas-kaiser.github.io/Code-Institute-Milestone-2-Interactive-Frontend-Development/"
-                  class="btn btn--outline btn--fixed-width"
-                  target="_blank"
-                  >Live</a
-                >
-              </footer>
+                    " />
+                <img src="./images/visiting-capitals.png" alt="" />
+              </picture>
+            </header>
+            <div class="card__body">
+              <h3>Visiting Capitals Cities in Europe</h3>
+              <hr />
+              <ul class="list list--tick">
+                <li class="list__item">HTML5 & CSS3 (Sass)</li>
+                <li class="list__item">JavaScript - jQuery</li>
+                <li class="list__item">Ajax</li>
+                <li class="list__item">Rest API (Foursquer API)</li>
+              </ul>
             </div>
+            <footer class="card__footer grid grid--1x2">
+              <a href="https://github.com/Tomas-Kaiser/Code-Institute-Milestone-2-Interactive-Frontend-Development"
+                class="btn btn--outline btn--fixed-width" target="_blank">Code</a>
+              <a href="https://tomas-kaiser.github.io/Code-Institute-Milestone-2-Interactive-Frontend-Development/"
+                class="btn btn--outline btn--fixed-width" target="_blank">Live</a>
+            </footer>
           </div>
-          <div class="side-project fade-in">
-            <div class="card">
-              <header class="card__header">
-                <picture>
-                  <source
-                    type="image/webp"
-                    srcset="
+        </div>
+        <div class="side-project fade-in">
+          <div class="card">
+            <header class="card__header">
+              <picture>
+                <source type="image/webp" srcset="
                       ./images/Dublin-guide.webp    1x,
                       ./images/Dublin-guide@2x.webp 2x
-                    "
-                  />
-                  <source
-                    type="image/png"
-                    srcset="
+                    " />
+                <source type="image/png" srcset="
                       ./images/Dublin-guide.png    1x,
                       ./images/Dublin-guide@2x.png 2x
-                    "
-                  />
-                  <img src="./images/Dublin-guide.png" alt="" />
-                </picture>
-              </header>
-              <div class="card__body">
-                <h3>Dublin Guide</h3>
-                <hr />
-                <ul class="list list--tick">
-                  <li class="list__item">HTML5</li>
-                  <li class="list__item">CSS3</li>
-                  <li class="list__item">Bootstrap</li>
-                  <li class="list__item">GitHub</li>
-                </ul>
-              </div>
-              <footer class="card__footer grid grid--1x2">
-                <a
-                  href="https://github.com/Tomas-Kaiser/Code-Institute-Milestone-1-User-Centric-Frontend"
-                  class="btn btn--outline btn--fixed-width"
-                  target="_blank"
-                  >Code</a
-                >
-                <a
-                  href="https://tomas-kaiser.github.io/Code-Institute-Milestone-1-User-Centric-Frontend/"
-                  class="btn btn--outline btn--fixed-width"
-                  target="_blank"
-                  >Live</a
-                >
-              </footer>
+                    " />
+                <img src="./images/Dublin-guide.png" alt="" />
+              </picture>
+            </header>
+            <div class="card__body">
+              <h3>Dublin Guide</h3>
+              <hr />
+              <ul class="list list--tick">
+                <li class="list__item">HTML5</li>
+                <li class="list__item">CSS3</li>
+                <li class="list__item">Bootstrap</li>
+                <li class="list__item">GitHub</li>
+              </ul>
             </div>
+            <footer class="card__footer grid grid--1x2">
+              <a href="https://github.com/Tomas-Kaiser/Code-Institute-Milestone-1-User-Centric-Frontend"
+                class="btn btn--outline btn--fixed-width" target="_blank">Code</a>
+              <a href="https://tomas-kaiser.github.io/Code-Institute-Milestone-1-User-Centric-Frontend/"
+                class="btn btn--outline btn--fixed-width" target="_blank">Live</a>
+            </footer>
           </div>
-          <div class="side-project fade-in">
-            <div class="card">
-              <header class="card__header">
-                <picture>
-                  <source
-                    type="image/webp"
-                    srcset="
+        </div>
+        <div class="side-project fade-in">
+          <div class="card">
+            <header class="card__header">
+              <picture>
+                <source type="image/webp" srcset="
                       ./images/neighbrohood-map.webp    1x,
                       ./images/neighbrohood-map@2x.webp 2x
-                    "
-                  />
-                  <source
-                    type="image/png"
-                    srcset="
+                    " />
+                <source type="image/png" srcset="
                       ./images/neighbrohood-map.png    1x,
                       ./images/neighbrohood-map@2x.png 2x
-                    "
-                  />
-                  <img src="./images/neighbrohood-map.png" alt="" />
-                </picture>
-              </header>
-              <div class="card__body">
-                <h3>Neighborhood Map</h3>
-                <hr />
-                <ul class="list list--tick">
-                  <li class="list__item">HTML5 & CSS3</li>
-                  <li class="list__item">ReactJS</li>
-                  <li class="list__item">Unsplash Rest API</li>
-                </ul>
-              </div>
-              <footer class="card__footer">
-                <a
-                  href="https://github.com/Tomas-Kaiser/Neigborhood-MAP-reactJS-FEND-UDACITY"
-                  class="btn btn--outline btn--fixed-width"
-                  target="_blank"
-                  >Code</a
-                >
-                <a
-                  href="https://neigbrohood-map-react.herokuapp.com/"
-                  class="btn btn--outline btn--fixed-width"
-                  target="_blank"
-                  >Live</a
-                >
-              </footer>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div id="exp" class="position-relative"></div>
-    <section class="block block-timeline">
-      <div class="container">
-        <h2 class="block__heading">Work Experience & Education</h2>
-        <div class="timeline">
-          <div class="timeline__box fade-in">
-            <header class="timeline__header">
-              <h4 class="timeline__heading">Optum</h4>
+                    " />
+                <img src="./images/neighbrohood-map.png" alt="" />
+              </picture>
             </header>
-            <div class="timeline__body">
-              <p>Software Engineer</p>
-              <p>2020 - currently</p>
+            <div class="card__body">
+              <h3>Neighborhood Map</h3>
+              <hr />
+              <ul class="list list--tick">
+                <li class="list__item">HTML5 & CSS3</li>
+                <li class="list__item">ReactJS</li>
+                <li class="list__item">Unsplash Rest API</li>
+              </ul>
             </div>
-          </div>
-          <div class="timeline__box fade-in">
-            <header class="timeline__header">
-              <h4 class="timeline__heading">National College of Ireland</h4>
-            </header>
-            <div class="timeline__body">
-              <p>
-                Higher Diploma in Science in Computing (First-class Honours)
-              </p>
-              <p>2019 - 2020</p>
-            </div>
-          </div>
-          <div class="timeline__box fade-in">
-            <header class="timeline__header">
-              <h4 class="timeline__heading">Forcepoint</h4>
-            </header>
-            <div class="timeline__body">
-              <p>Hardware Analyst</p>
-              <p>2017 - 2020</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div id="testimonials" class="position-relative"></div>
-    <section class="block block-testimonial">
-      <div class="container">
-        <h2 class="block__heading">What Colleagues Say About Me</h2>
-        <div class="card testimonial">
-          <blockquote class="quote">
-            <p class="quote__text">
-              Tomas is a great asset to have on any team. He is always willing
-              to assist, solve problems, and impart knowledge. His calm
-              approach, attention to detail, and professionalism are missed in
-              his previous team. A great guy to work with.
-            </p>
-            <footer>
-              <div class="media">
-                <div class="media__image">
-                  <svg class="icon icon--accent">
-                    <use xlink:href="./images/sprite.svg#line"></use>
-                  </svg>
-                </div>
-                <div class="media__body">
-                  <h3 class="media__title quote__author">Ken Gibson</h3>
-                  <p class="quote__organization">Forcepoint</p>
-                </div>
-              </div>
+            <footer class="card__footer">
+              <a href="https://github.com/Tomas-Kaiser/Neigborhood-MAP-reactJS-FEND-UDACITY"
+                class="btn btn--outline btn--fixed-width" target="_blank">Code</a>
+              <a href="https://neigbrohood-map-react.herokuapp.com/" class="btn btn--outline btn--fixed-width"
+                target="_blank">Live</a>
             </footer>
-          </blockquote>
+          </div>
         </div>
       </div>
-    </section>
-    <div id="contact" class="position-relative"></div>
-    <section class="section block block-form contact">
-      <div class="container">
-        <h2 class="block__heading">Get In Touch</h2>
-        <form
-          class="form-contact"
-          name="contact"
-          method="POST"
-          data-netlify="true"
-        >
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input id="name" type="text" name="name" />
+    </div>
+  </section>
+  <div id="exp" class="position-relative"></div>
+  <section class="block block-timeline">
+    <div class="container">
+      <h2 class="block__heading">Work Experience & Education</h2>
+      <div class="timeline">
+        <div class="timeline__box fade-in">
+          <header class="timeline__header">
+            <h4 class="timeline__heading">Optum</h4>
+          </header>
+          <div class="timeline__body">
+            <p>Software Engineer</p>
+            <p>2020 - currently</p>
           </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email" />
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="8"></textarea>
-          </div>
-          <button class="btn btn--accent" type="submit">Submit</button>
-        </form>
-      </div>
-    </section>
-    <footer class="block block--dark footer">
-      <div class="container">
-        <div class="social-icons">
-          <a
-            href="https://www.linkedin.com/in/tomas-kaiser-06/"
-            target="_blank"
-          >
-            <svg role="img" xmlns="http://www.w3.org/2000/svg">
-              <title>LinkedIn icon</title>
-              <use xlink:href="./images/linkedin.svg#linkedin"></use>
-            </svg>
-          </a>
-          <a href="https://github.com/Tomas-Kaiser" target="_blank">
-            <svg role="img" xmlns="http://www.w3.org/2000/svg">
-              <title>GitHub icon</title>
-              <use xlink:href="./images/github.svg#github"></use>
-            </svg>
-          </a>
         </div>
-        <p class="footer__copyright">Copyright &copy; 2021 Tomas Kaiser</p>
+        <div class="timeline__box fade-in">
+          <header class="timeline__header">
+            <h4 class="timeline__heading">National College of Ireland</h4>
+          </header>
+          <div class="timeline__body">
+            <p>
+              Higher Diploma in Science in Computing (First-class Honours)
+            </p>
+            <p>2019 - 2020</p>
+          </div>
+        </div>
+        <div class="timeline__box fade-in">
+          <header class="timeline__header">
+            <h4 class="timeline__heading">Forcepoint</h4>
+          </header>
+          <div class="timeline__body">
+            <p>Hardware Analyst</p>
+            <p>2017 - 2020</p>
+          </div>
+        </div>
       </div>
-    </footer>
-    <script src="./js/main.js"></script>
-  </body>
+    </div>
+  </section>
+  <div id="testimonials" class="position-relative"></div>
+  <section class="block block-testimonial">
+    <div class="container">
+      <h2 class="block__heading">What Colleagues Say About Me</h2>
+      <div class="card testimonial">
+        <blockquote class="quote">
+          <p class="quote__text">
+            Tomas is a great asset to have on any team. He is always willing
+            to assist, solve problems, and impart knowledge. His calm
+            approach, attention to detail, and professionalism are missed in
+            his previous team. A great guy to work with.
+          </p>
+          <footer>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--accent">
+                  <use xlink:href="./images/sprite.svg#line"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title quote__author">Ken Gibson</h3>
+                <p class="quote__organization">Forcepoint</p>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+  <div id="contact" class="position-relative"></div>
+  <section class="section block block-form contact">
+    <div class="container">
+      <h2 class="block__heading">Get In Touch</h2>
+      <p>Please, contact me on <a href="https://www.linkedin.com/in/tomas-kaiser-06/" target="_blank">LinkedIn</a></p>
+    </div>
+  </section>
+  <footer class="block block--dark footer">
+    <div class="container">
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/tomas-kaiser-06/" target="_blank">
+          <svg role="img" xmlns="http://www.w3.org/2000/svg">
+            <title>LinkedIn icon</title>
+            <use xlink:href="./images/linkedin.svg#linkedin"></use>
+          </svg>
+        </a>
+        <a href="https://github.com/Tomas-Kaiser" target="_blank">
+          <svg role="img" xmlns="http://www.w3.org/2000/svg">
+            <title>GitHub icon</title>
+            <use xlink:href="./images/github.svg#github"></use>
+          </svg>
+        </a>
+      </div>
+      <p class="footer__copyright">Copyright &copy; 2021 Tomas Kaiser</p>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
 </html>
