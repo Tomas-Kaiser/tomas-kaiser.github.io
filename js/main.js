@@ -64,7 +64,7 @@ const aboutObserver = new IntersectionObserver(function (
     }
   });
 },
-aboutOption);
+  aboutOption);
 
 aboutObserver.observe(about);
 
@@ -104,7 +104,7 @@ const projectsObserver = new IntersectionObserver(function (
     }
   });
 },
-projectsOption);
+  projectsOption);
 
 projectsObserver.observe(projects);
 
@@ -144,7 +144,7 @@ const testimonalObserver = new IntersectionObserver(function (
     }
   });
 },
-testimonalOption);
+  testimonalOption);
 
 testimonalObserver.observe(testimonal);
 
@@ -166,7 +166,7 @@ const contactObserver = new IntersectionObserver(function (
     }
   });
 },
-contactOption);
+  contactOption);
 
 contactObserver.observe(contact);
 
@@ -189,7 +189,7 @@ const appearOnScroll = new IntersectionObserver(function (
     }
   });
 },
-appearOptions);
+  appearOptions);
 
 faders.forEach((fader) => {
   appearOnScroll.observe(fader);
@@ -198,3 +198,12 @@ faders.forEach((fader) => {
 sliders.forEach((slider) => {
   appearOnScroll.observe(slider);
 });
+
+
+// Dynamic years of working experience from 2020
+const yearsOfExperience = new Date().getFullYear() - 2020
+document.getElementById("yearsOfExp").textContent = yearsOfExperience
+
+// Copyright year
+const year = new Date().getFullYear()
+document.getElementById("copyrightYear").textContent = year
